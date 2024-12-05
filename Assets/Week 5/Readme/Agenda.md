@@ -3,6 +3,12 @@
 ## 1. Kỹ Thuật Spawner<T> Có Tên Gọi Là Gì
 
 Trả lời:
+Kỹ thuật Spawner thường được gọi là Object Pooling (Bể đối tượng) khi áp dụng một cách tối ưu và có tổ chức để tạo ra và tái sử dụng các đối tượng thay vì tạo và hủy đối tượng liên tục. Tuy nhiên, nếu bạn đang nói đến việc tạo ra các đối tượng mới trong game (ví dụ, spawn enemy, item, v.v.), thì thuật ngữ Spawner hoặc Factory Pattern cũng có thể được sử dụng để mô tả kỹ thuật này.
+
+Tóm tắt các thuật ngữ:
+- Spawner: Được dùng để mô tả việc tạo ra và quản lý các đối tượng trong game, chẳng hạn như kẻ thù, item, v.v.
+- Object Pooling: Một kỹ thuật tối ưu để tái sử dụng các đối tượng thay vì tạo mới và hủy đối tượng nhiều lần, giúp giảm thiểu sự chậm trễ và tải cho game.
+- Factory Pattern: Một mô hình thiết kế trong lập trình giúp tạo ra đối tượng mà không cần phải biết chính xác loại đối tượng mà nó tạo ra.
 
 ## 2. Bài Tập Sử Dụng `<T>`
 
